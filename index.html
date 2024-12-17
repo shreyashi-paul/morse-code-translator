@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="./javascript/script.js" defer></script>
+    <script type="module" src="./javascript/dom.js" defer></script>
+    <title>Morse Code Generator</title>
+  </head>
+  <body>
+    <header><h1>Morse Code Generator</h1></header>
+    <main>
+      <div>
+        <form id="morseToWord">
+          <h3>English to MorseCode</h3>
+          <textarea
+            name="inputWord"
+            id="inputWord"
+            placeholder="Type here"
+          ></textarea>
+        </form>
+        <button class="btn">Translate</button>
+        <div id="output-morse">Output will display here</div>
+      </div>
+
+      <div>
+        <form id="wordToMorse">
+          <h3>Morsecode to English</h3>
+          <textarea
+            name="inputMorse"
+            id="inputMorse"
+            placeholder="Type here"
+          ></textarea>
+        </form>
+        <button class="btn">Translate</button>
+        <div id="output-text">Output will display here</div>
+      </div>
+    </main>
+  </body>
+</html>

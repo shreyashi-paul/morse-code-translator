@@ -1,0 +1,91 @@
+body {
+  background-color: rgb(208, 228, 200);
+  padding: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 30vh;
+  gap: 5em;
+  color: rgb(13, 78, 94);
+}
+
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+h1 {
+  // margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 38px;
+  text-align: center;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+  h3 {
+    margin-bottom: 40px;
+    font: 18px;
+    margin-bottom: 30px;
+    // justify-content: center;
+    // align-items: center;
+    // text-align: center;
+  }
+
+  form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 100px;
+    padding-bottom: 40px;
+    width: 500px;
+    height: 200px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px 0px rgb(203, 203, 203);
+    gap: 2em;
+    border-radius: 10px;
+    // justify-content: space-around;
+    text-align: center;
+    background-color: rgb(218, 234, 239);
+  }
+
+  #output-morse, #output-text {
+    border: 1px solid white;
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+
+  }
+
+  .btn {
+    background-color:rgb(13, 78, 94);
+    color: white;
+    height: 50px;
+    width: 90px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+  }
+
+  // media queries pending

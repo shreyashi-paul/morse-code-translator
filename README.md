@@ -1,12 +1,12 @@
 # morse-code-translator
 
-This task will require me to create a web page Morse Code translator. The User Interface will have to look good but should remain simple (additional features, ie. sounds, lights, etc, should only be added once the MVP has been completed.)
+This task requires me to create a web page Morse Code translator. The User Interface will have to look good but should remain simple (additional features, ie. sounds, lights, etc, should only be added once the MVP has been completed.)
 
 ## Demo & Snippets
 
-- Include hosted link - WIP
-- Include images of app if CLI or Client App - WIP
-
+- Include hosted link -
+- Include images of app if CLI or Client App
+ 
 ---
 
 ## Requirements / Purpose
@@ -29,7 +29,7 @@ This task will require me to create a web page Morse Code translator. The User I
 
   HTML - for basic structures
   CSS - to make it look good
-  JavaScript - to add functionality that means when users give any input to translate in morse code, it should translate the input into morse code or vice versa.
+  JavaScript - JavaScript is used to add the functionality that means when users give any input to translate in morse code, it should translate the input into morse code or vice versa.
 
 ---
 
@@ -69,17 +69,8 @@ This task will require me to create a web page Morse Code translator. The User I
 
 ## What did you struggle with?
 
-- What? Why? How?
+- making JavaScript functionality work, was challenging. Even though the I have written the functions, imports were not working properly due to invalid variable inputs.
 
----
+- Also, writing a test for my code and pass the testing were challenging.
 
-## Licensing Details
-
-- What type of license are you releasing this under?
-
----
-
-## Further details, related projects, reimplementations
-
-- Is this project a reimplementation for something you've done in the past? if so explain it and link it here.
-- If it's an API, is there a client app that works with this project? link it
+- I have only build English to Morse code and Morse code to English translator. In coming days, I plan to include other languages and also aiming to build a picture to morse code and morse code to picture translator.
