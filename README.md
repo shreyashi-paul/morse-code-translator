@@ -4,9 +4,10 @@ This task requires me to create a web page Morse Code translator. The User Inter
 
 ## Demo & Snippets
 
-- Include hosted link -
+- Include hosted link -https://shreyashi-paul.github.io/morse-code-translator/
 - Include images of app if CLI or Client App
- 
+ ![{DC517B9A-4E40-4DC6-9A50-C6F586855007}](https://github.com/user-attachments/assets/6dcc51f3-cd9e-48da-a928-0c60d59d1946)
+
 ---
 
 ## Requirements / Purpose
